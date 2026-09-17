@@ -1,5 +1,6 @@
 import { useSearchParams } from "react-router";
 import { SearchBar } from "../components/SearchBar";
+import "./NotFound.css";
 
 export default function NotFound() {
     const [searchParams] = useSearchParams();

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useMovieSearch } from "../hooks/useMovieSearch";
 import { FiArrowUp, FiLoader } from "react-icons/fi";
+import "./SearchBar.css";
 
 export function SearchBar({
     size = "large",
