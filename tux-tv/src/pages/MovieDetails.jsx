@@ -1,6 +1,7 @@
 import { SearchBar } from "../components/SearchBar";
 import { MovieCard } from "../components/MovieCard";
 import { useMovieDetails } from "../hooks/useMovieDetails";
+import "./MovieDetails.css";
 
 export default function MovieDetails() {
     const { movie, loading, error } = useMovieDetails();
