@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+}
+
 body {
     background-color: #000000;
     color: #ffffff;
@@ -12,7 +19,13 @@ body {
 
 .page {
     min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.page--home {
+    justify-content: center;
+    gap: 24px;
 }
